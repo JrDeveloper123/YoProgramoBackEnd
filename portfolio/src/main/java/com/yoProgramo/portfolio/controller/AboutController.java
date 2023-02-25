@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/sobremi")
-@CrossOrigin(origins = {"https://front-ef.web.app", "http://localhost:4200"})
+@CrossOrigin()
 public class AboutController  {
      @Autowired
     AboutService aboutMiService;
