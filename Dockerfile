@@ -5,4 +5,4 @@
 FROM amazoncorretto:17-alpine-jdk
 MAINTAINER jrDeveloper
 COPY portfolio-0.0.1-SNAPSHOT portfolio-0.0.1-SNAPSHOT
-ENTRYPOINT ["java","-jar","/portfolio-0.0.1-SNAPSHOT"]
+ENTRYPOINT ["java","-jar","portfolio-0.0.1-SNAPSHOT"]
